@@ -1,0 +1,57 @@
+.todo-card {
+    border-radius: 8px;
+    background: white;
+    padding: 14px;
+}
+
+.todo-card .visible {
+
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border-radius: 4px;
+    border: 2px solid rgb(211, 208, 208);
+    background-color: rgb(211, 208, 208);
+
+}
+
+.todo-card .aftervisible {
+
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border-radius: 4px;
+    border: 2px solid rgb(71, 117, 209);
+    background-color: rgb(71, 117, 209);
+
+}
+
+
+
+
+
+
+
+.todo-card .todo-list h4 {
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.todo-card .todo-list p {
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.todo-card .icons {
+    border-radius: 4px;
+    padding: 6px 5px;
+    background-color: rgb(211, 208, 208);
+}
+
+.todo-card .icons .icon-size {
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+}

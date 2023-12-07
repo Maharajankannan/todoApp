@@ -1,0 +1,29 @@
+.todo h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(96, 82, 110);
+}
+
+.todo .todo-container {
+
+    width: 75%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+
+.todo .todo-container .add-button {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 30px;
+    font-size: 25px;
+    font-weight: 600;
+    background: rgb(89, 122, 212);
+    color: white;
+}
+
+.todo-subContainer {
+    background: rgb(211, 208, 208);
+    border-radius: 8px;
+    padding: 25px;
+}
